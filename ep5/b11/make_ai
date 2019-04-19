@@ -1,0 +1,1 @@
+gcc main.c -shared -fPIC -Wall -O2 -DPLAYER=$2 -DROBOT_AI=$1 -o "robot_ai$2.so"
